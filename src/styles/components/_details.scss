@@ -1,4 +1,5 @@
 @use '../abstracts' as *;
+@use "sass:math";
 
 .details {
   margin: 6rem auto 1rem auto;
@@ -156,26 +157,24 @@
 
 @for $i from 1 through 8 {
   .stripe:nth-of-type(8n + #{$i}) {
-    transform: rotate(360deg / 8 * $i) translateY(-20px) scaleY(0);
+    transform: rotate(math.div(360deg, 8) * $i) translateY(-20px) scaleY(0);
   }
 
   .details__wish-list:hover .stripe:nth-of-type(8n + #{$i}) {
-    //@each $var in list {
-    // transform: rotate(360deg / 8 * $i) translateY(-20px) scaleY(1);
     animation: stp-#{$i} 0.5s ease-in-out;
   }
 
   @keyframes stp-#{$i} {
     0% {
-      transform: rotate(360deg / 8 * $i) translateY(-20px) scaleY(0);
+      transform: rotate(math.div(360deg, 8) * $i) translateY(-20px) scaleY(0);
     }
     50%,
     70% {
-      transform: rotate(360deg / 8 * $i) translateY(-20px) scaleY(1);
+      transform: rotate(math.div(360deg, 8) * $i) translateY(-20px) scaleY(1);
     }
 
     100% {
-      transform: rotate(360deg / 8 * $i) translateY(-20px) scaleY(0);
+      transform: rotate(math.div(360deg, 8) * $i) translateY(-20px) scaleY(0);
     }
   }
 }
