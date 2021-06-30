@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name='description' content="You're moving to the valley...">
+    <title>Stardew Valley</title>
+ 
+  </head>
+  <body>
+    <header> 
+      <div class="search__backdrop"></div>
+      <div class="search-container">
+        
+        <div class="search-form">
+          <div class="search">
+            <a href='#' class="search-form__logo">
+              <svg viewBox="0 0 176 46" fill="#fff" width="40px" height="40px">
+                <path
+                  d="M32.613 27.231l-8.8-15.1h-6.358v21.648h6.32v-15.1l8.842 15.1h6.3V12.135h-6.309zm50.077-7.816v-2.142h-3.325v-2.912h-6.143v2.916h-3.339v2.137h3.337v14.367h6.149V19.414h3.325zM42.431 33.782h6.138V19.389h-6.138v14.4zm-.015-17.227h6.153V12.13h-6.153v4.425zM149.99 18.4c-4.954 0-8.971 3.619-8.971 8.082s4.017 8.084 8.971 8.084 8.97-3.618 8.97-8.084-4.016-8.082-8.97-8.082zm2.46 11.111c0 2.3-1.277 3.244-2.508 3.244s-2.516-.948-2.516-3.244v-3.1-3c0-2.284 1.285-3.223 2.509-3.223s2.507.939 2.507 3.223c0 .871 0 2.485.006 3.064.006.036.002 2.179.002 3.041zM132.963 20.1a7.857 7.857 0 0 0-3.473-1.285c-4.423-.412-7.8 3.737-7.8 7.537a7.675 7.675 0 0 0 4.2 7.138 7.017 7.017 0 0 0 7.064-.542v.833h6.068V12.135h-6.057V20.1zm.043 6.411v2.554c0 2.224-1.452 2.806-2.408 2.806-.975 0-2.4-.582-2.4-2.806v-2.562-2.566c0-2.226 1.43-2.793 2.407-2.793.954 0 2.4.567 2.4 2.793l.001 2.574zm-70.068-7.788a7.188 7.188 0 0 0-4.895 2.171c-.006-.357 0-1.514 0-1.514h-6.1v14.395h6.093l-.006-9.454a2.893 2.893 0 0 1 2.914-2.649 2.785 2.785 0 0 1 2.8 2.649v9.459h6.1v-7.832a6.794 6.794 0 0 0-6.906-7.225zm49.879 0a7.188 7.188 0 0 0-4.894 2.171c-.007-.357 0-1.514 0-1.514h-6.09v14.395h6.093l-.006-9.454a2.893 2.893 0 0 1 2.914-2.649 2.785 2.785 0 0 1 2.8 2.649v9.459h6.1v-7.832a6.793 6.793 0 0 0-6.917-7.225zm-12.845 7.924c0-4.465-4.066-8.163-9.057-8.163s-9.037 3.619-9.037 8.082 4.046 8.083 9.037 8.083a8.966 8.966 0 0 0 8.708-5.906h-6.118v.874c0 2.632-1.633 3.217-2.539 3.217s-2.568-.585-2.568-3.217v-2.973s11.574.008 11.574.003zm-11.16-5.068a2.429 2.429 0 0 1 4.317 0 5.775 5.775 0 0 1 .4 2.826h-5.124a5.742 5.742 0 0 1 .407-2.826zm72.588-6.77c0-.706-.493-1.062-1.485-1.062h-1.365v3.691h.85v-1.512h.416l.664 1.511h.941l-.776-1.65a.972.972 0 0 0 .755-.978zm-1.589.576h-.411v-1.071h.372c.509 0 .76.164.76.55-.004.366-.232.521-.72.521zm.025-3.081a3.338 3.338 0 1 0 3.142 3.333 3.241 3.241 0 0 0-3.141-3.337zm0 6.027a2.7 2.7 0 1 1 2.54-2.694 2.621 2.621 0 0 1-2.539 2.694zM152.992 0H23C9.242-.034 0 10.458 0 23.034s9.22 22.947 23.019 22.95h129.952c13.8 0 23.019-10.376 23.019-22.95S166.749-.029 152.992 0zm-.063 40.346H23.059c-10.966.041-17.63-7.766-17.63-17.344s6.7-17.324 17.63-17.345h129.87c10.926.022 17.629 7.766 17.629 17.345s-6.658 17.39-17.629 17.349z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </a>
+<label  class="search__label">
+  <img
+  src="./assets/images/search.svg"
+  alt="search icon"
+  class="search__icon"
+/>
+  <input type="text" data-input='searchInput' class="search__input" placeholder="Search Nintendo.com">
+  
+</label><div class="search__close">
+    <img src="./assets/images/gray-x.svg" alt="cross" width="40px" height="40px" >
+  </div>
+          </div>
+        <div class="search__data">
+          <div class="suggestions">
+            Suggestions
+            <ul class="suggestions__list">
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Nintendo Switch</a></li>
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Nintendo Switch Games</a></li>
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Nintendo Switch Online</a></li>
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Nintendo News</a></li>
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Ring Fit Adventure</a></li>
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Mario Games</a></li>
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Zelda Games</a></li>
+              <li class="suggestions__item"><a href="#" class="suggestions__link">Pokemon Games</a></li>
+            </ul>
+          </div>
+          <div class="games-container">
+            Find Your next game
+            <ul class="games__suggestions">
+              <li class="games__suggestions-item">
+                <a href="" class="games__suggestions-link">
+                  <div class="suggestions__badge">
+                    <img src="./assets/images/badge.svg" alt="" width="40px" height="40px"></div>
+                    <div class="suggestions__text">
+                      
+                      <p>Games on sale</p>
+                    </div>
+                </a>
+              </li>
+              <li class="games__suggestions-item">
+                <a href="" class="games__suggestions-link">
+                  <div class="suggestions__badge">
+                    <img src="./assets/images/calendar.svg" width="40px" height="40px" alt=""></div>
+                    <div class="suggestions__text">
+                      <p>New games</p>
+                      
+                    </div>
+                </a>
+              </li>
+              <li class="games__suggestions-item">
+                <a href="" class="games__suggestions-link">
+                  <div class="suggestions__badge">
+                    <img src="./assets/images/hardware.svg" width="40px" height="40px" alt=""></div>
+                    <div class="suggestions__text">
+                      <p>
+                          Nintendo Switch games
+                      </p>
+                    
+                    </div>
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        
+      </div>
+      <div class="backdrop--dropdown"></div>
+      <nav class="navigation">
+        <div class="navigation__panel">
+          <div class="navigation__wrap">
+            <div class="navigation__logo">
+              <svg viewBox="0 0 176 46" fill="#fff" width="100%" height="100%">
+                <path
+                  d="M32.613 27.231l-8.8-15.1h-6.358v21.648h6.32v-15.1l8.842 15.1h6.3V12.135h-6.309zm50.077-7.816v-2.142h-3.325v-2.912h-6.143v2.916h-3.339v2.137h3.337v14.367h6.149V19.414h3.325zM42.431 33.782h6.138V19.389h-6.138v14.4zm-.015-17.227h6.153V12.13h-6.153v4.425zM149.99 18.4c-4.954 0-8.971 3.619-8.971 8.082s4.017 8.084 8.971 8.084 8.97-3.618 8.97-8.084-4.016-8.082-8.97-8.082zm2.46 11.111c0 2.3-1.277 3.244-2.508 3.244s-2.516-.948-2.516-3.244v-3.1-3c0-2.284 1.285-3.223 2.509-3.223s2.507.939 2.507 3.223c0 .871 0 2.485.006 3.064.006.036.002 2.179.002 3.041zM132.963 20.1a7.857 7.857 0 0 0-3.473-1.285c-4.423-.412-7.8 3.737-7.8 7.537a7.675 7.675 0 0 0 4.2 7.138 7.017 7.017 0 0 0 7.064-.542v.833h6.068V12.135h-6.057V20.1zm.043 6.411v2.554c0 2.224-1.452 2.806-2.408 2.806-.975 0-2.4-.582-2.4-2.806v-2.562-2.566c0-2.226 1.43-2.793 2.407-2.793.954 0 2.4.567 2.4 2.793l.001 2.574zm-70.068-7.788a7.188 7.188 0 0 0-4.895 2.171c-.006-.357 0-1.514 0-1.514h-6.1v14.395h6.093l-.006-9.454a2.893 2.893 0 0 1 2.914-2.649 2.785 2.785 0 0 1 2.8 2.649v9.459h6.1v-7.832a6.794 6.794 0 0 0-6.906-7.225zm49.879 0a7.188 7.188 0 0 0-4.894 2.171c-.007-.357 0-1.514 0-1.514h-6.09v14.395h6.093l-.006-9.454a2.893 2.893 0 0 1 2.914-2.649 2.785 2.785 0 0 1 2.8 2.649v9.459h6.1v-7.832a6.793 6.793 0 0 0-6.917-7.225zm-12.845 7.924c0-4.465-4.066-8.163-9.057-8.163s-9.037 3.619-9.037 8.082 4.046 8.083 9.037 8.083a8.966 8.966 0 0 0 8.708-5.906h-6.118v.874c0 2.632-1.633 3.217-2.539 3.217s-2.568-.585-2.568-3.217v-2.973s11.574.008 11.574.003zm-11.16-5.068a2.429 2.429 0 0 1 4.317 0 5.775 5.775 0 0 1 .4 2.826h-5.124a5.742 5.742 0 0 1 .407-2.826zm72.588-6.77c0-.706-.493-1.062-1.485-1.062h-1.365v3.691h.85v-1.512h.416l.664 1.511h.941l-.776-1.65a.972.972 0 0 0 .755-.978zm-1.589.576h-.411v-1.071h.372c.509 0 .76.164.76.55-.004.366-.232.521-.72.521zm.025-3.081a3.338 3.338 0 1 0 3.142 3.333 3.241 3.241 0 0 0-3.141-3.337zm0 6.027a2.7 2.7 0 1 1 2.54-2.694 2.621 2.621 0 0 1-2.539 2.694zM152.992 0H23C9.242-.034 0 10.458 0 23.034s9.22 22.947 23.019 22.95h129.952c13.8 0 23.019-10.376 23.019-22.95S166.749-.029 152.992 0zm-.063 40.346H23.059c-10.966.041-17.63-7.766-17.63-17.344s6.7-17.324 17.63-17.345h129.87c10.926.022 17.629 7.766 17.629 17.345s-6.658 17.39-17.629 17.349z"
+                  fill-rule="evenodd"
+                ></path>
+              </svg>
+            </div>
+            <button class="navigation__search hide">
+              <img width="30px" height="30px"
+                src="./assets/images/search.svg"
+                alt="search icon"
+                class="search__icon"
+              />
+              <div class="search__text search__text--1">
+                Search games, systems, support, etc.
+              </div>
+
+              <div class="search__text search__text--2">Search</div>
+            </button>
+          </div>
+
+          <ul class="navigation__list">
+            <li class="navigation__item hide">
+              <a href="#">
+                <img src="./assets/images/chatbox.svg" alt="support icon" width="40px" height="40px" />
+                support</a
+              >
+            </li>
+            <li class="navigation__item hide">
+              <a href="#">
+                <img src="./assets/images/heart.svg" alt="wish list icon" width="40px" height="40px" />
+                wish list</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="#">
+                <img src="./assets/images/person.svg" alt="person icon" width="40px" height="40px" />
+                log in</a
+              >
+            </li>
+      <li>
+          <button class="navbar-toggler" aria-label='Open the menu'>
+              <div class="navbar-toggler__box">
+                <div class="navbar-toggler__inner"></div>
+              </div>
+            </button>
+      </li>
+          
+          </ul>
+        </div>
+
+       
+        <ul class="navigation__dropdowns">
+          <li class="navigation__dropdown navigation__dropdown--hidden">
+            <a href="#" class="navigation__link">
+              <button class="navigation__button navigation__button--search">
+                <img src="./assets/images/search.svg" width="30px" height="30px" alt="search icon" />
+                Search
+              </button>
+            </a>
+          </li>
+
+          <li class="navigation__dropdown">
+            <button class="navigation__button">
+              <img src="./assets/images/gamecross.svg" width="40px" height="40px" alt="games icon" />
+              games
+              <img width="40px" height="40px"
+                src="./assets/images/chevron-down.svg"
+                alt="chevron-down icon"
+              />
+            </button>
+
+            <div class="expand-dropdown">
+              <div class="expand-dropdown__close hide">
+                <img src="./assets/images/gray-x.svg" width="30px" height="30px" alt="close icon" />
+              </div>
+              <div class="expand-dropdown__list">
+                <a class="expand-dropdown__item" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/gamecross.svg" width="40px" height="40px" alt="games" />
+                  </div>
+                  Shop games
+                </a>
+                <a class="expand-dropdown__item" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/badge.svg" width="40px" height="40px" alt="sales" />
+                  </div>
+                  Sales and deals
+                </a>
+                <a class="expand-dropdown__item" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/calendar.svg" width="40px" height="40px" alt="calendar" />
+                  </div>
+                  Coming soon
+                </a>
+                <a class="expand-dropdown__item" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/online.svg" width="40px" height="40px" alt="online" />
+                  </div>
+                  Online service
+                </a>
+                <a class="expand-dropdown__item" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/mobile.svg" width="40px" height="40px" alt="mobile" />
+                  </div>
+                  Mobile games
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="navigation__dropdown">
+            <button class="navigation__button">
+              <img src="./assets/images/hardware.svg" width="40px" height="40px" alt="hardware icon" />
+              hardware
+              <img width="40px" height="40px"
+                src="./assets/images/chevron-down.svg"
+                alt="chevron-down icon"
+              />
+            </button>
+
+            <div class="expand-dropdown">
+              <div class="expand-dropdown__close hide">
+                <img src="./assets/images/gray-x.svg" alt="close icon" width="30px" height="30px" />
+              </div>
+              <div class="expand-dropdown__list">
+                <a class="expand-dropdown__item expand-dropdown__item--hardware" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/switch-lineup.webp" alt="switch lineup picture" width="40px" height="40px" />
+                  </div>
+                  Nintendo Switch Lineup
+                </a>
+                <a class="expand-dropdown__item expand-dropdown__item--hardware" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/accessories.webp" width="40px" height="40px" alt="accessories picture" />
+                  </div>
+                  Accessories
+                </a>
+                <a class="expand-dropdown__item expand-dropdown__item--hardware" href="#">
+                  <div class="expand-dropdown__img">
+                    <img src="./assets/images/amiibo.webp" width="40px" height="40px" alt="amiibo picture" />
+                  </div>
+                  amiibo
+                </a>
+                </div>
+          </li>
+          <li class="navigation__dropdown">
+            <a href="#" class="navigation__link">
+              <button class="navigation__button">
+                <img src="./assets/images/news.svg" width="30px" height="30px" alt="news icon" />
+                News & Events
+              </button>
+            </a>
+          </li>
+          <li class="navigation__dropdown">
+            <a href="#" class="navigation__link">
+              <button class="navigation__button">
+                <img width="30px" height="30px"
+                  src="./assets/images/playNintendo.svg"
+                  alt="nintendo star icon"
+                />
+                Play Nintendo
+              </button>
+            </a>
+          </li>
+          <li class="navigation__dropdown navigation__dropdown--hidden">
+            <a href="#" class="navigation__link">
+              <button class="navigation__button">
+                <img src="./assets/images/chatbox.svg" width="30px" height="30px" alt="support icon" />
+                Support
+              </button>
+            </a>
+          </li>
+          <li class="navigation__dropdown navigation__dropdown--hidden">
+            <a href="#" class="navigation__link">
+              <button class="navigation__button">
+                <img src="./assets/images/heart.svg" width="30px" height="30px" alt="wish list icon" />
+                Wish List
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="hero">
+        <div class="hero__img">
+          <img
+          width="100%" height="100%"
+            src="./assets/images/hero.jpg"
+            alt="game cover photo"
+            loading="lazy"
+          />
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="details">
+        
+        <div class="details__info">
+          <div class="details__console">Nintendo Switch</div>
+          <div class="details__basic">
+            <div class="details__name">Stardew Valley</div>
+          <div class="details__available">Available now</div>
+          </div>
+          
+          <button class="details__wish-list">
+            <div class="details__heart">
+             
+                <span class="stripe"></span>
+              <span class="stripe"></span>
+              <span class="stripe"></span>
+              <span class="stripe"></span>
+              <span class="stripe"></span>
+              <span class="stripe"></span>
+              <span class="stripe"></span>
+              <span class="stripe"></span>
+              
+              
+              <img src="./assets/images/heart-outline.svg" alt="heart icon" width="30px" height="30px">
+            </div>
+
+<div class="txt">Add to Wish List</div>
+            
+          
+          </button>
+
+          <div class="details__basic-buy">
+             <div class="details__price">$14.99</div>
+                <div class="details__btn">
+            <button class="details__buy">
+              <div class="btn-background"></div>
+              <div class="btn-text">
+                 Buy digital 
+                 <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="arrow icon">
+              </div>
+             
+             
+            </button>
+          <div class="details__points">
+            <img src="./assets/images/gold-points.png" width="30px" height="30px" alt="gold points">
+            Eligible for up to 75 points</div>
+          </div>
+          </div>
+       
+         
+          
+        </div>
+
+      </section>
+
+      <section class="gallery" >
+        <div class="gallery__container">
+            <div class="slider">
+                <div class="slider__glider">
+                  <!-- <div class="slider__glide">
+                    <div class="slider__slide">
+                    <div class="slider__img"><img src="./assets/images/screenshot01.jpg" alt=""></div>
+                    <div class="slider__img"><img src="./assets/images/screenshot02.jpg" alt=""></div>
+                    <div class="slider__img"><img src="./assets/images/screenshot03.jpg" alt=""></div>
+                    <div class="slider__img"><img src="./assets/images/screenshot04.jpg" alt=""></div>
+                    <div class="slider__img"><img src="./assets/images/screenshot05.jpg" alt=""></div>
+                  </div>
+                  </div>
+                  <div class="slider__glide">
+<div class="slider__slide">
+                    <div class="slider__img"><img src="./assets/images/screenshot06.webp" alt=""></div>
+                  </div>
+                  </div> -->
+
+                </div>
+             
+            </div>
+            <div class="slider__controls">
+              <!-- <div class="slider__prev"></div> -->
+
+              <div class="slider__dots">
+                <!-- <div class="slider__dot slider__dot--active"></div>
+                <div class="slider__dot"></div> -->
+              </div>
+                <!-- <div class="slider__next"></div> -->
+            </div>
+        </div>
+      </section>
+
+
+      <section class="description">
+        <div class="description__content">
+          <h2 class="description__title">You're moving to the valley...</h2>
+          <p class="description__text">You’ve inherited your grandfather’s old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won’t be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town’s most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!</p>
+          <p class="description__text">
+            Now with Multiplayer! Invite 1-3 players to join you in the valley! Players can work together to build a thriving farm, share resources, and build relationships with townspeople or each other. As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience.
+          </p>
+          <button class="description__btn">
+            <div class="btn-background"></div>
+            <div class="btn-text">
+              Explore this game's official site
+               <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="arrow icon">
+            </div>
+          </button>
+        </div>
+      </section>
+
+
+      <section class="standarts">
+        <div class="standarts__container">
+          <div class="standarts__info">
+              <div class="standarts__item bg-grey">
+                <div class="standarts__title"><img width="40px" height="40px"  src="./assets/images/calendar.svg" alt=""> Release date:</div>
+                <div class="standarts__subtext">October 05, 2017</div>
+              </div>
+              <div class="standarts__item bg-grey">
+                <div class="standarts__title"><img width="40px" height="40px" src="./assets/images/gear.svg" alt="">Developer: </div>
+                <div class="standarts__subtext">ConcernedApe</div>
+              </div>
+              <div class="standarts__item">
+                <div class="standarts__title"><img width="40px" height="40px" src="./assets/images/players.svg" alt="">Players:</div>
+                <div class="standarts__subtext">up to 4 players</div>
+              </div>
+              <div class="standarts__item">
+                <div class="standarts__title"><img width="40px" height="40px" src="./assets/images/db.svg" alt="">Game file size:</div>
+                <div class="standarts__subtext">1.5 GB</div>
+              </div>
+              <div class="standarts__item bg-grey">
+                <div class="standarts__title"><img width="40px" height="40px" src="./assets/images/gamecross.svg" alt="">Genre:</div>
+                <div class="standarts__subtext">Indie, Simulator, Role-Playing</div>
+              </div>
+              <div class="standarts__item standarts__item--medium bg-grey">
+                <div class="standarts__title"><img width="40px" height="40px" src="./assets/images/ethernet.svg" alt="">Supported Languages:</div>
+                <div class="standarts__subtext standarts__subtext">
+                  Japanese, French, German, Italian, Spanish, Korean, Portuguese, Russian, Chinese, English</div>
+              </div>
+              <div class="standarts__item">
+                <div class="standarts__title"><img width="40px" height="40px" src="./assets/images/publisher.svg" alt=""> Publisher:</div>
+                <div class="standarts__subtext"> ConcernedApe</div>
+              </div>
+          
+
+
+          </div>
+          <div class="standarts__subinfo">
+            <div class="standarts__item standarts__item--big  bg-grey">
+              <div class="standarts__title">Supported Play Modes:</div>
+              <div class="standarts__subinformation">
+                <div class="standarts__play-mode">
+                  <div class="standarts__img">
+                    <img src="./assets/images/tv.svg" width="40px" height="40px" alt="tv icon">
+                  </div>
+                  TV mode
+                </div>
+                <div class="standarts__play-mode">
+                  <div class="standarts__img">
+                    <img src="./assets/images/tabletop.svg" width="40px" height="40px" alt="tablet icon">
+                  </div>
+                  Tabletop mode
+                </div>
+                <div class="standarts__play-mode">
+                  <div class="standarts__img">
+                    <img src="./assets/images/handheld.svg" width="40px" height="40px" alt="switch icon">
+                  </div>
+                  Handheld mode
+                </div>
+              </div>
+
+              <div class="standarts__sub">
+                Software compatibility and play experience may differ on Nintendo Switch Lite. Additional accessories may be required (sold separately). See <span><a href="#" class="standarts__sub-link">
+                  support
+                </a></span> for details.
+              </div>
+            </div>
+            <div class="standarts__item standarts__item--esrb  bg-grey">
+              <div class="standarts__title">ESRB Rating:</div>
+              <a href="https://www.esrb.org/ratings-guide/" target="_blank"  rel="noopener"  class="standarts__rating">
+                <div class="standarts__rating-img" >
+                  <img src="./assets/images/en-e10.svg" width="40px" height="40px" alt="image of ESRB">
+                </div>
+                <div class="standarts__rating-text">
+                 Simulated Gambling. Use of Alcohol,Fantasy Violence. Use of Tobacco. Mild Blood. Mild Language
+                 <hr>
+                 Users Interact
+                  
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="standarts__membership bg-grey">
+
+              <div class="standarts__logo">
+                <img src="./assets/images/logo-nso.svg" width="100px" height="40px" alt="">
+              </div>
+                <div class="standarts__membership-text">
+                  Play online, access classic Super NES™ games, and more with a Nintendo Switch Online membership.
+                </div>
+                  <button class=" standarts__btn standarts__btn--flat">
+                    <span>Learn more</span> <img src="./assets/images/chevron-down.svg" alt="" width="30px" height="30px">
+                  </button>
+
+                  <div class="standarts__label">
+                    This game supports:
+                  </div>
+
+                 <div class="standarts__btns">
+                      <button class="standarts__btn">
+                      <div class="btn-background"></div>
+                      <div class="btn-text">Online play</div>
+                    </button>
+                    <button class="standarts__btn">
+                      <div class="btn-background"></div>
+                      <div class="btn-text">Save Data Cloud</div>
+                    </button>
+                 </div>
+                 
+               
+
+          </div>
+        </div>
+      </section>
+
+
+      <section class="rights">
+        <div class="rights__container">
+          <p class="rights__text">
+            Nintendo Switch Online membership (sold separately) and Nintendo Account required for online play. Not available in all countries. Internet access required for online features. Terms apply
+            <span><a class='rights__link'rel="noopener" target="_blank" href="https://www.nintendo.com/switch/online-service/">nintendo.com/switch-online</a></span>
+          </p>
+          <p class="rights__text">
+            Stardew Valley © ConcernedApe LLC 2016-2020. All rights reserved.
+          </p>
+        </div>
+      </section>
+
+
+      <section class="recommend">
+        <div class="recommend__container">
+          <h2 class="recommend__title">Customers who viewed this game also viewed</h2>
+            <div class="recommend__list-container">
+  <div class="recommend__prev hideArrow">
+              <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="">
+            </div>
+              <ul class="recommend__list">
+       
+          
+
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/animalCrossing.jpg" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">03/20/20</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">Animal Crossing™: New Horizons</a>
+              <div class="game__price">$59.99</div>
+              <div class="game__like">
+                <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/minecraft.webp" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">06/20/18</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">Minecraft</a>
+              <div class="game__price">$29.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/monsterHunter.webp" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">03/26/21</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">MONSTER HUNTER RISE</a>
+              <div class="game__price">$59.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/ori.webp" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">09/17/20</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">Ori and the Wild of the Wisps</a>
+              <div class="game__price">$29.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/zelda.jpg" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">03/03/17</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">The Legend of Zelda™: Breath of the Wild</a>
+              <div class="game__price">$59.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/pokemon.jpg" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">11/19/21</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">Pokémon™ Brilliant Diamond</a>
+              <div class="game__price">$59.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/mario.jpg" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">02/12/21</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">Super Mario™ 3D World + Bowser’s Fury</a>
+              <div class="game__price">$59.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/metroid.jpg" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">10/08/21</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">Metroid™: Dread</a>
+              <div class="game__price">$59.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+            
+            <li class="game">
+              <a class="game__img" href='#'rel="noopener" target='_blank'><img src="./assets/images/miitopia.jpg" width="100px" height="100px"      loading="lazy" alt="game cover"></a>
+              <div class="game__date">05/21/21</div>
+              <a href='#' target='_blank'rel="noopener" class="game__title">Mitopia™</a>
+              <div class="game__price">$49.99</div>
+              <div class="game__like">
+
+                       <div class="game__platform">Nintendo Switch</div>
+                <btn-heart></btn-heart>
+              </div>
+            </li>
+
+
+            
+          </ul><div class="recommend__next">
+              <img src="./assets/images/chevron-down.svg" width="30px" height="30px"   alt="">
+            </div>
+            </div>
+          
+        </div>
+      </section>
+
+
+
+
+      <footer>
+        <nav class="footer-navigation">
+          <ul class="footer-navigation__list">
+            <li class="footer-navigation__item">
+                <input type="checkbox" id='ch1' class='footer-navigation__input' >
+                <label for="ch1" class='footer-navigation__label'>
+                  <h3 class="footer-navigation__title">Games
+
+                    <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="">
+                  </h3>
+
+                </label>
+
+                <div class="footer-navigation__links">
+                 <a href="#" class="footer-navigation__link">Coming Soon</a>
+                <a href="#" class="footer-navigation__link">Nintendo Switch</a>
+                <a href="#" class="footer-navigation__link">Wii U</a>
+                <a href="#" class="footer-navigation__link">Nintendo 3DS</a>
+              </div>
+          
+            </li>
+            <li class="footer-navigation__item">
+              <input type="checkbox" id='ch2' class='footer-navigation__input' >
+              <label for="ch2" class='footer-navigation__label'>
+                <h3 class="footer-navigation__title">Explore More
+
+                  <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="">
+                </h3>
+
+              </label>
+
+              <div class="footer-navigation__links">
+               <a href="#" class="footer-navigation__link">Game Guide</a>
+              <a href="#" class="footer-navigation__link">All Mario Games</a>
+              <a href="#" class="footer-navigation__link">Games for Any Age</a>
+              
+            </div>
+              
+            </li>
+            <li class="footer-navigation__item">
+              <input type="checkbox" id='ch3' class='footer-navigation__input' >
+                <label for="ch3" class='footer-navigation__label'>
+                  <h3 class="footer-navigation__title">Support
+
+                    <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="">
+                  </h3>
+
+                </label>
+
+                <div class="footer-navigation__links">
+                 <a href="#" class="footer-navigation__link">Warranty</a>
+                <a href="#" class="footer-navigation__link">Nintendo Switch Support</a>
+                <a href="#" class="footer-navigation__link">Wii U Support</a>
+                <a href="#" class="footer-navigation__link">Nintendo 3DS Support</a>
+                <a href="#" class="footer-navigation__link">Repair Help</a>
+                <a href="#" class="footer-navigation__link">Nintendo Product Recycling</a>
+              </div>
+            </li>
+            <li class="footer-navigation__item">
+              <input type="checkbox" id='ch4' class='footer-navigation__input' >
+              <label for="ch4" class='footer-navigation__label'>
+                <h3 class="footer-navigation__title">Where To Buy
+
+                  <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="">
+                </h3>
+
+              </label>
+
+              <div class="footer-navigation__links">
+               <a href="#" class="footer-navigation__link">Game Store</a>
+              <a href="#" class="footer-navigation__link">List of Online Retailers</a>
+              <a href="#" class="footer-navigation__link">Nintendo NY</a>
+              <a href="#" class="footer-navigation__link">Nintendo Store</a>
+            </div>
+            </li>
+            <li class="footer-navigation__item">
+              <input type="checkbox" id='ch5' class='footer-navigation__input' >
+              <label for="ch5" class='footer-navigation__label'>
+                <h3 class="footer-navigation__title">Health & Safety/Privacy
+
+                  <img src="./assets/images/chevron-down.svg" width="30px" height="30px" alt="">
+                </h3>
+
+              </label>
+
+              <div class="footer-navigation__links">
+               <a href="#" class="footer-navigation__link">Health & Safety Precautions Manual</a>
+              <a href="#" class="footer-navigation__link">Cookie and Interest-Based ads</a>
+              <a href="#" class="footer-navigation__link">Privacy Policy</a>
+              <a href="#" class="footer-navigation__link">Terms of Use</a>
+            </div>
+            </li>
+
+
+            <li  class="footer-navigation__region">
+              <a  class="footer-navigation__region-link" href="#">Change Region <span></span> </a>
+              
+              
+            </li>
+          </ul>
+
+
+        </nav>
+        <div class="footer">
+
+          <div class="footer__container">
+            <div class="footer__connection">
+              <div class="footer__links">
+
+                <a class="footer__link" href="#">Contact Us</a>
+                <a class="footer__link" href="#">Website Feedback</a>
+              </div>
+              <div class="footer__socials">
+                <a class="footer__social footer__social--facebook" href="#"><img src="./assets/images/facebook.svg" alt="facebook icon" width="30px" height="30px"></a>
+                <a class="footer__social footer__social--twitter" href="#"><img src="./assets/images/twitter.svg"  alt="twitter icon" width="30px" height="30px"></a>
+                <a class="footer__social footer__social--instagram" href="#"><img src="./assets/images/instagram.svg"  alt="instagram icon" width="30px" height="30px"></a>
+                <a class="footer__social footer__social--youtube" href="#"><img src="./assets/images/youtube.svg"  alt="youtube icon" width="30px" height="30px"></a>
+              </div> <a href="#" class="footer__esrb">
+              <img src="./assets/images/esrb.svg"  alt="esrb icon" width="100%" height="100%">
+            </a>
+            </div>
+              <div class="footer__terms">
+                <p>@ 2021 Nintendo. Games are property of their respective owners.</p>
+                <p>Nintendo of America Inc. | Headquarters are in Redmond, Washington, USA | <span><a href="#">Support</a></span></p>
+              </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+
+
+    <section class="dialog" tabindex="0">
+      <div class="dialog__bk"></div>
+      <div class="dialog__content">
+        <div class="dialog__img"></div>
+      </div>
+
+      <div class="dialog__ui">
+        <div class="dialog__header">
+          <div class="dialog__number"></div>
+          <div class="dialog__utils">
+            <div class="dialog__scale"></div>
+            <div class="dialog__fullscreen"></div>
+            <div class="dialog__exit"></div>
+          </div>
+        </div>
+
+        <button class="dialog__prev"></button>
+        <button class="dialog__next"></button>
+      </div>
+    </section>
+  </body>
+</html>
